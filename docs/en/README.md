@@ -21,5 +21,5 @@
 ## Links
 
 - Live example: <https://graf.redtidev1918.workers.dev>
-- Repository: <https://github.com/redtidev1918/graf>
-- Changelog (Chinese): <https://github.com/redtidev1918/graf/blob/master/CHANGELOG.zh-CN.md>
+- Repository: <https://github.com/redtidev1918/Graf>
+- Changelog (Chinese): <https://github.com/redtidev1918/Graf/blob/master/CHANGELOG.zh-CN.md>

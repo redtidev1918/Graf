@@ -1,6 +1,6 @@
-# grafctl Windows 一键安装： irm https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/grafctl-install.ps1 | iex
+# grafctl Windows 一键安装： irm https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/grafctl-install.ps1 | iex
 $ErrorActionPreference = "Stop"
-$repo = "redtidev1918/graf"
+$repo = "redtidev1918/Graf"
 $arch = if ($env:PROCESSOR_ARCHITECTURE -match "ARM64|ARM") { "arm64" } else { "amd64" }
 $name = "grafctl_windows_${arch}.zip"
 $url = "https://github.com/$repo/releases/latest/download/${name}"

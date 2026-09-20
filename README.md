@@ -29,7 +29,7 @@ English: [README.en.md](README.en.md)
 写入密钥 → 建表 → 部署 → 线上自检）：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
 ```
 
 已在本地克隆过仓库的，直接运行（二选一）：
@@ -124,7 +124,7 @@ BOOKS_ENABLED=true 时启用：在后台「作品」建书并把页面章节按�
 **零依赖一键**（单二进制，内嵌迁移与 Worker bundle，无需克隆仓库/Node/npm；首次 `auth` 粘贴一次 Token 后即无环境变量依赖）：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/grafctl-install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/grafctl-install.sh | sh
 grafctl auth            # 粘贴一次 Cloudflare API Token(保存到用户配置目录)
 grafctl deploy --yes    # 之后一条命令全自动部署
 ```
@@ -133,7 +133,7 @@ grafctl deploy --yes    # 之后一条命令全自动部署
 
 > `--yes` 在未设 `ADMIN_USERNAME`/`ADMIN_PASSWORD` 时会**自动生成随机管理员密码**（仅显示一次）；想保留原密码请先 `export ADMIN_USERNAME=admin ADMIN_PASSWORD=你的密码` 再部署。
 
-也可从 [Releases](https://github.com/redtidev1918/graf/releases) 手动下载 Linux/macOS/Windows × amd64/arm64 二进制。
+也可从 [Releases](https://github.com/redtidev1918/Graf/releases) 手动下载 Linux/macOS/Windows × amd64/arm64 二进制。
 
 > 与 npm 版 deploy.mjs 功能对等；每个 `vX.Y.Z` Release 都附带分平台二进制。
 
@@ -164,7 +164,7 @@ ENABLE_COMMENTS=true 时页面自动加载 assets/js/paranote.js，提供段落�
 本项目借鉴或依赖以下外部项目与规范，谨致谢意：
 
 - **Sérgio Vorniches**（MIT）—— 本项目设计所源自的早期发布站实现的作者；
-- **ParaNote**（作者的项目 [redtidev1918/paranote](https://github.com/redtidev1918/paranote)）—— 段落级评论协议与前端客户端来源；
+- **ParaNote**（作者的项目 [redtidev1918/ParaNote](https://github.com/redtidev1918/ParaNote)）—— 段落级评论协议与前端客户端来源；
 - **Telegra.ph / Telegraph API** —— 发布体验与公开 API 规范的参考；
 - **markdown-it、markdown-it-footnote**（MIT）—— Markdown 渲染引擎；
 - **Django、Python-Markdown** —— 旧版实现所依赖的生态；
@@ -178,7 +178,7 @@ ENABLE_COMMENTS=true 时页面自动加载 assets/js/paranote.js，提供段落�
 - Cloudflare Workers：https://developers.cloudflare.com/workers/
 - Cloudflare D1：https://developers.cloudflare.com/d1/
 - wrangler：https://developers.cloudflare.com/workers/wrangler/
-- ParaNote（段落评论协议）：https://github.com/redtidev1918/paranote
+- ParaNote（段落评论协议）：https://github.com/redtidev1918/ParaNote
 - markdown-it：https://github.com/markdown-it/markdown-it
 - Python-Markdown：https://python-markdown.github.io/
 

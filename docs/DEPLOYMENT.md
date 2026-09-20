@@ -21,9 +21,9 @@ SECRET=openssl-rand-hex-32 ADMIN_USERNAME=admin ADMIN_PASSWORD='你的密码' ./
 
 ```bash
 # macOS/Linux
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/grafctl-install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/grafctl-install.sh | sh
 # Windows(PowerShell)
-# irm https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/grafctl-install.ps1 | iex
+# irm https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/grafctl-install.ps1 | iex
 
 grafctl auth          # 首次粘贴一次 Cloudflare API Token(存到用户配置目录)
 grafctl deploy --yes  # 之后零依赖一键部署(建库→迁移→Secrets→上传→开启worker.dev→自检)
@@ -39,7 +39,7 @@ grafctl deploy --yes  # 之后零依赖一键部署(建库→迁移→Secrets→
 写密钥 → 建表 → 部署 → 线上自检）：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
 ```
 
 已克隆过仓库的，直接运行：

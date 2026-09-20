@@ -64,7 +64,7 @@ src/config.ts（SITE_NAME）与 wrangler.toml（name），改名只动两处。
 
 - Graf 的代码是全新的 TypeScript 实现（未再分发 Python/Django 代码）。
 - 仓库内 assets/js/paranote.js 来自作者本人的 ParaNote 项目
-  （[redtidev1918/paranote](https://github.com/redtidev1918/paranote)，MIT），
+  （[redtidev1918/ParaNote](https://github.com/redtidev1918/ParaNote)，MIT），
   详见 THIRD_PARTY_NOTICES.zh-CN.md。
 - 本仓库保留 tapnote 与 TeleNote 的完整历史（tag/branch `legacy-django`），
   使原 MIT 作品及其作者可追溯。

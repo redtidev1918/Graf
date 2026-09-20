@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"time"
 
-	assets "github.com/redtidev1918/graf"
+	assets "github.com/redtidev1918/Graf"
 )
 
 func runDoctor(c *Cfg) error {

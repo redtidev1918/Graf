@@ -13,7 +13,7 @@ case "$arch" in
   aarch64|arm64) arch="arm64" ;;
   *) echo "暂不支持的架构: $arch"; exit 1 ;;
 esac
-repo="redtidev1918/graf"
+repo="redtidev1918/Graf"
 name="grafctl_${os}_${arch}.tar.gz"
 url="https://github.com/$repo/releases/latest/download/${name}"
 tmp="$(mktemp -d)"

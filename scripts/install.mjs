@@ -5,11 +5,11 @@
  * 在尚未克隆仓库的机器上使用; 它会 clone 仓库并转交 scripts/deploy.mjs 完成全自动部署。
  *
  *   macOS / Linux / WSL:
- *     curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/install.mjs -o /tmp/graf-install.mjs
+ *     curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/install.mjs -o /tmp/graf-install.mjs
  *     node /tmp/graf-install.mjs
  *
  *   Windows (PowerShell):
- *     curl.exe -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/install.mjs -o "$env:TEMP\graf-install.mjs"
+ *     curl.exe -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/install.mjs -o "$env:TEMP\graf-install.mjs"
  *     node "$env:TEMP\graf-install.mjs"
  *
  * 参数会原样传给 deploy.mjs, 例如:
@@ -20,7 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import process from 'node:process';
 
-const REPO = 'https://github.com/redtidev1918/graf.git';
+const REPO = 'https://github.com/redtidev1918/Graf.git';
 const DIR = process.argv[2] && !process.argv[2].startsWith('-') ? process.argv[2] : 'graf';
 const deployArgs = process.argv.slice(2).filter((a) => a !== DIR);
 

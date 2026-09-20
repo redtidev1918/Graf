@@ -1,3 +1,3 @@
-module github.com/redtidev1918/graf
+module github.com/redtidev1918/Graf
 
 go 1.23

@@ -19,7 +19,7 @@ are reproduced here in summary; full texts are available at the cited sources.
 
 ## 3. ParaNote client — assets/js/paranote.js (MIT)
 
-- Origin: the author's own [redtidev1918/paranote](https://github.com/redtidev1918/paranote)
+- Origin: the author's own [redtidev1918/ParaNote](https://github.com/redtidev1918/ParaNote)
   project (paragraph-comment service); the copy shipped here is used verbatim as a static asset.
 - Note: not a third-party work — same author as Graf. Licence: MIT.
 

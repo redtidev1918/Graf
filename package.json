@@ -1,6 +1,6 @@
 {
   "bugs": {
-    "url": "https://github.com/redtidev1918/graf/issues"
+    "url": "https://github.com/redtidev1918/Graf/issues"
   },
   "dependencies": {
     "markdown-it": "^14.1.0",
@@ -18,7 +18,7 @@
   "engines": {
     "node": ">=18"
   },
-  "homepage": "https://github.com/redtidev1918/graf",
+  "homepage": "https://github.com/redtidev1918/Graf",
   "keywords": [
     "telegraph",
     "telegra.ph",
@@ -35,7 +35,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redtidev1918/graf.git"
+    "url": "git+https://github.com/redtidev1918/Graf.git"
   },
   "scripts": {
     "dev": "wrangler dev",

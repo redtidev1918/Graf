@@ -6,4 +6,4 @@
   - [架构说明](/ARCHITECTURE.md)
   - [部署指南](/DEPLOYMENT.md)
   - [项目历史与血统](/HISTORY.md)
-- [更新日志（GitHub）](https://github.com/redtidev1918/graf/blob/master/CHANGELOG.zh-CN.md)
+- [更新日志（GitHub）](https://github.com/redtidev1918/Graf/blob/master/CHANGELOG.zh-CN.md)

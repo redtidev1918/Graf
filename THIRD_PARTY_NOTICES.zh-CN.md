@@ -18,7 +18,7 @@ Graf 以 MIT 许可发布，但构建并分发使用了以下作品，在此声�
 
 ## 3. ParaNote 客户端 —— assets/js/paranote.js（MIT）
 
-- 来源：作者本人的 [redtidev1918/paranote](https://github.com/redtidev1918/paranote)
+- 来源：作者本人的 [redtidev1918/ParaNote](https://github.com/redtidev1918/ParaNote)
   项目（段落级评论服务）；本仓库以其静态资源原样使用。
 - 说明：并非第三方作品 —— 与 Graf 同属作者 redtidev1918。许可：MIT。
 

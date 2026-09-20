@@ -4,7 +4,7 @@ Graf 是一个极简、**自托管的 Markdown 发布平台**，**兼容 Telegra
 整个服务跑在 **Cloudflare Workers + D1** 上：发布即得一个短链页面，可选段落级评论。
 
 在线示例：[graf.redtidev1918.workers.dev](https://graf.redtidev1918.workers.dev)
-GitHub 仓库：[redtidev1918/graf](https://github.com/redtidev1918/graf)
+GitHub 仓库：[redtidev1918/Graf](https://github.com/redtidev1918/Graf)
 
 ## 下载
 
@@ -39,6 +39,6 @@ GitHub 仓库：[redtidev1918/graf](https://github.com/redtidev1918/graf)
 
 ## 其他入口
 
-- [GitHub 仓库](https://github.com/redtidev1918/graf)
-- [项目说明（README）](https://github.com/redtidev1918/graf/blob/master/README.md)
-- [变更记录](https://github.com/redtidev1918/graf/blob/master/CHANGELOG.zh-CN.md)
+- [GitHub 仓库](https://github.com/redtidev1918/Graf)
+- [项目说明（README）](https://github.com/redtidev1918/Graf/blob/master/README.md)
+- [变更记录](https://github.com/redtidev1918/Graf/blob/master/CHANGELOG.zh-CN.md)

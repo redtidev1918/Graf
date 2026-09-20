@@ -21,9 +21,9 @@ A single binary with embedded D1 migrations + Worker bundle — **no repo checko
 
 ```bash
 # macOS/Linux
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/grafctl-install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/grafctl-install.sh | sh
 # Windows (PowerShell)
-# irm https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/grafctl-install.ps1 | iex
+# irm https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/grafctl-install.ps1 | iex
 
 grafctl auth          # paste a Cloudflare API Token once
  grafctl deploy --yes # zero-dependency deploy afterwards (db -> migrations -> secrets -> upload -> worker.dev -> check)
@@ -40,7 +40,7 @@ installs dependencies, checks the Cloudflare login, creates the D1 database, wri
 migrates, deploys and runs an online self-check):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
 ```
 
 Already cloned? Run:

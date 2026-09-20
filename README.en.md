@@ -26,7 +26,7 @@ Cloudflare login, creates the D1 database, writes secrets, migrates and deploys,
 a few questions (site name, comments on/off, admin username/password):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/install.mjs -o /tmp/graf-install.mjs && node /tmp/graf-install.mjs
 ```
 
 Already cloned? Just run `node scripts/deploy.mjs` (or `npm run deploy:auto`).
@@ -129,7 +129,7 @@ a /books index and per-book catalogs at /book/{slug}, and chapter pages show pre
 **Zero-dependency one-click** (single binary with embedded migrations + worker bundle — no repo checkout/Node/npm; run `auth` once to store the token, then no env vars needed):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/redtidev1918/graf/master/scripts/grafctl-install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/redtidev1918/Graf/master/scripts/grafctl-install.sh | sh
 grafctl auth
 grafctl deploy --yes
 ```
@@ -138,7 +138,7 @@ Common commands: `grafctl doctor` (read-only check), `grafctl migrate` (migratio
 
 > With `--yes` and no `ADMIN_USERNAME`/`ADMIN_PASSWORD` set, a random admin password is auto-generated (shown once); to keep an existing password, run `export ADMIN_USERNAME=admin ADMIN_PASSWORD=yourpass` first.
 
-Or download Linux/macOS/Windows × amd64/arm64 binaries manually from [Releases](https://github.com/redtidev1918/graf/releases).
+Or download Linux/macOS/Windows × amd64/arm64 binaries manually from [Releases](https://github.com/redtidev1918/Graf/releases).
 
 ## Comments
 
@@ -160,7 +160,7 @@ npm run db:migrate:local
 Graf builds on external projects and specifications; thanks to:
 
 - **Sérgio Vorniches** (MIT) — author of the original publishing implementation this project's design derives from.
-- **ParaNote** ([redtidev1918/paranote](https://github.com/redtidev1918/paranote)) — the author's own paragraph-comment system; source of the comment protocol and the bundled paranote.js client.
+- **ParaNote** ([redtidev1918/ParaNote](https://github.com/redtidev1918/ParaNote)) — the author's own paragraph-comment system; source of the comment protocol and the bundled paranote.js client.
 - **Telegra.ph / Telegraph API** — design reference and public API spec.
 - **markdown-it / markdown-it-footnote** (MIT) — Markdown rendering engine.
 - **Django / Python-Markdown** — ecosystem behind the legacy implementation.
@@ -174,7 +174,7 @@ Third-party legal notices: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) (Chi
 - Cloudflare Workers: https://developers.cloudflare.com/workers/
 - Cloudflare D1: https://developers.cloudflare.com/d1/
 - wrangler: https://developers.cloudflare.com/workers/wrangler/
-- ParaNote (paragraph-comment protocol): https://github.com/redtidev1918/paranote
+- ParaNote (paragraph-comment protocol): https://github.com/redtidev1918/ParaNote
 - markdown-it: https://github.com/markdown-it/markdown-it
 - Python-Markdown: https://python-markdown.github.io/
 

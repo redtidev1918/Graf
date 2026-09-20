@@ -70,7 +70,7 @@ It is intentionally a neutral codename; the brand strings are centralised in `sr
 
 - Graf's code is a new TypeScript implementation (no Python or Django code is redistributed).
 - The vendored `assets/js/paranote.js` client originates from the author's own ParaNote
-  project ([redtidev1918/paranote](https://github.com/redtidev1918/paranote), MIT);
+  project ([redtidev1918/ParaNote](https://github.com/redtidev1918/ParaNote), MIT);
   see THIRD_PARTY_NOTICES.md.
 - The repository keeps the full history of tapnote and TeleNote (tag `legacy-django`, branch
   `legacy-django`) so the original MIT-licensed work and its authors remain accessible.

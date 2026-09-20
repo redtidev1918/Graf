@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	assets "github.com/redtidev1918/graf"
+	assets "github.com/redtidev1918/Graf"
 )
 
 func findD1(cli *apiClient, name string) (string, error) {
