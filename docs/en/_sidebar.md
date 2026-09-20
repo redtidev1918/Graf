@@ -6,3 +6,5 @@
   - [Architecture](/en/ARCHITECTURE.md)
   - [Deployment Guide](/en/DEPLOYMENT.md)
   - [Project History](/en/HISTORY.md)
+- 中文
+  - [中文文档](/)
