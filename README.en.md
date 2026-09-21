@@ -3,9 +3,9 @@
 
 **Language / 语言:** [中文](README.md) · English
 
-Graf is a minimalist, **self-hosted Markdown publishing platform** that is **API-compatible with**
-[Telegra.ph](https://telegra.ph) (the Telegraph API), designed to run entirely on
-**Cloudflare Workers + D1**. One short URL, instant pages, optional paragraph-level comments.
+> Graf is a minimalist, **self-hosted Markdown publishing platform** that is **API-compatible with**
+> [Telegra.ph](https://telegra.ph) (the Telegraph API), designed to run entirely on
+> **Cloudflare Workers + D1**. One short URL, instant pages, optional paragraph-level comments.
 
 📖 [Full documentation](https://redtidev1918.github.io/Graf/)
 
