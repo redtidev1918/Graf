@@ -6,10 +6,25 @@
 > 极简、**自托管的 Markdown 发布平台**，**兼容 Telegra.ph（Telegraph API）**，整个服务跑在
 > **Cloudflare Workers + D1** 上：发布即得一个短链页面，可选段落级评论。
 
-📖 [完整文档](https://redtidev1918.github.io/Graf/)
+[完整文档](https://redtidev1918.github.io/Graf/)
 
 [![Docs](https://img.shields.io/badge/Docs-文档站点-6366f1?style=flat-square)](https://redtidev1918.github.io/Graf/)
 在线示例：[graf.redtidev1918.workers.dev](https://graf.redtidev1918.workers.dev)
+
+## 目录
+
+- [特性](#特性)
+- [快速开始](#快速开始)
+- [配置项](#配置项)
+- [API](#api)
+- [小说模式](#小说模式可选)
+- [grafctl](#go-版一键部署器-grafctl无需-node)
+- [评论](#评论)
+- [文档导航](#文档导航)
+- [历史](#历史)
+- [致谢](#致谢)
+- [参考](#参考)
+- [许可](#许可)
 
 ## 特性
 
