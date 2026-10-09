@@ -3,7 +3,7 @@
   "skip-github-release": true,
   "packages": {
     ".": {
-      "release-type": "simple",
+      "release-type": "node",
       "package-name": "graf",
       "include-v-in-tag": true,
       "include-component-in-tag": false,

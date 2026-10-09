@@ -53,5 +53,5 @@
     "build:check": "esbuild src/index.ts --bundle --format=esm --platform=browser --outfile=/dev/null"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "1.2.1"
 }
